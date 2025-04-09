@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxeSphere</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="assets/logo.png" alt="">
+      </div>
+      <div class="links">
+        <div class="link"><a href="#home">Home</a></div>
+        <div class="link"><a href="#about">About</a></div>
+        <div class="link"><a href="#clothing">Clothing</a></div>
+        <div class="link"><a href="#cosmetic">Cosmetic</a></div>
+        <div class="link"><a href="#perfumes">Perfumes</a></div>
+        <div class="link"><a href="#footwear">Footwear</a></div>
+        <div class="link"><a href="#contact">Contact</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburger" onclick="hamburger()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#clothing">Clothing</a>
+        <a href="#cosmetic">Cosmetic</a>
+        <a href="#perfumes">Perfumes</a>
+        <a href="#footwear">Footwear</a>
+        <a href="#contact">Contact</a>
+        <i class="fa-solid fa-xmark cancel"></i>
+      </div>
+    </div>
+  </nav>
+
+  <section class="home" id="home">
+    <div class="bg_img"></div>
+    <div class="main">
+      <h1>LuxeSphere</h1>
+      <h3>Where Prestige Meets Perfection</h3>
+      <p>"Indulge in the essence of luxury — where elegance meets exclusivity."</p>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="content">
+      <p><span>Welcome to LuxeSphere —</span><br><br>
+        your gateway to a world of refined luxury. From high-end fashion
+        and premium sneakers to exquisite perfumes and cosmetics, we curate the finest brands for those who
+        value style,
+        status, and sophistication.
+      </p><br>
+      <p>Step into a realm where elegance isn't just a choice — it's a lifestyle.</p><br>
+      <button class="about_btn">Explore More</button>
+    </div>
+
+    <div class="image-container">
+      <div class="masked-image"></div>
+    </div>
+  </section>
+
+  <section class="clothing" id="clothing">
+    <h1>Aurum Attire</h1>
+    <p>Drape yourself in luxury</p>
+    <div class="cards">
+      <div class="card up">
+        <div class="img"><img src="assets/clothing/clothing-1.jpg" alt=""></div>
+        <div class="brand">↷ DIOR</div>
+      </div>
+      <div class="card down">
+        <div class="img"><img src="assets/clothing/clothing-2.jpg" alt=""></div>
+        <div class="brand">↷ LOUIS VUITTON</div>
+      </div>
+      <div class="card up">
+        <div class="img"><img src="assets/clothing/clothing-3.jpg" alt=""></div>
+        <div class="brand">↷ GUCCI</div>
+      </div>
+      <div class="card down">
+        <div class="img"><img src="assets/clothing/clothing-4.jpg" alt=""></div>
+        <div class="brand">↷ PRADA</div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="cosmetic" id="cosmetic">
+    <h1>Opulenza Beauty</h1>
+    <p>Beauty Fit for Royalty.</p>
+    <div class="cards">
+      <div class="card up">
+        <div class="img"><img src="assets/cosmetic/cosmetic-1.jpg" alt=""></div>
+        <div class="brand">↷ TOM FORD BEAUTY</div>
+      </div>
+      <div class="card down">
+        <div class="img"><img src="assets/cosmetic/cosmetic-2.jpg" alt=""></div>
+        <div class="brand">↷ SISLEY PARIS</div>
+      </div>
+      <div class="card up">
+        <div class="img"><img src="assets/cosmetic/cosmetic-3.jpg" alt=""></div>
+        <div class="brand">↷ GUERLIN</div>
+      </div>
+      <div class="card down">
+        <div class="img"><img src="assets/cosmetic/cosmetic-4.jpg" alt=""></div>
+        <div class="brand">↷ CHANEL BEAUTY</div>
+      </div>
+    </div>
+
+  </section>
+  <section class="perfumes" id="perfumes">
+    <h1>Celeste Scents</h1>
+    <p>Fragrance that defines you</p>
+    <div class="cards">
+      <div class="card up">
+        <div class="img"><img src="assets/perfume/perfume-1.jpg" alt=""></div>
+        <div class="brand">↷ CLIVE CHRISTIAN</div>
+      </div>
+      <div class="card down">
+        <div class="img"><img src="assets/perfume/perfume-2.jpg" alt=""></div>
+        <div class="brand">↷ AMOUAGE</div>
+      </div>
+      <div class="card up">
+        <div class="img"><img src="assets/perfume/perfume-3.jpg" alt=""></div>
+        <div class="brand">↷ XERJOFF</div>
+      </div>
+      <div class="card down">
+        <div class="img"><img src="assets/perfume/perfume-4.jpg" alt=""></div>
+        <div class="brand">↷ CREED</div>
+      </div>
+    </div>
+
+  </section>
+  <section class="footwear" id="footwear">
+    <h1>Elite Soles</h1>
+    <p>Walk the Exclusive Path</p>
+    <div class="cards">
+      <div class="card up">
+        <div class="img"><img src="assets/footwear/footwear-1.jpg" alt=""></div>
+        <div class="brand">↷ LOUBOUTIN</div>
+      </div>
+      <div class="card down">
+        <div class="img"><img src="assets/footwear/footwear-2.jpg" alt=""></div>
+        <div class="brand">↷ GIUSEPPE ZANOTTI</div>
+      </div>
+      <div class="card up">
+        <div class="img"><img src="assets/footwear/footwear-3.jpg" alt=""></div>
+        <div class="brand">↷ MANOLO BLAHNIK</div>
+      </div>
+      <div class="card down">
+        <div class="img"><img src="assets/footwear/footwear-4.jpg" alt=""></div>
+        <div class="brand">↷ JIMMY CHOO</div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="login">
+      <div class="brand-logo"></div>
+      <div class="brand-title">LUXESPHERE</div>
+      <div class="inputs">
+        <label>EMAIL</label>
+        <input type="email" placeholder="example@test.com" />
+        <label>PASSWORD</label>
+        <input type="password" placeholder="Min 6 charaters long" />
+        <button type="submit">LOGIN</button>
+      </div>
+    </div>
+    <div class="info">
+      <h1>Reach out to <span>LUXESPHERE</span></h1>
+      <div class="clip">
+      <div class="clip_path">
+        <h3>Address:-</h3>
+        <p>LuxeSphere Office
+          Monroe Street <br>
+          Chicago</p>
+      </div>
+      <div class="clip_path">
+        <h3>E-mail:-</h3>
+        <p>luxesphere@ <br>gmail.com</p>
+      </div>
+      <div class="clip_path">
+        <h3>Contact:-</h3>
+        <p>8941XXXXXX</p>
+        <p>7980XXXXXX</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="copyright-footer">
+    <p>&copy; 2025 <span class="brand">Tanushree</span>. All rights reserved.</p>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+
+</html>
