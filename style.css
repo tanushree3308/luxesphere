@@ -124,7 +124,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(assets/hero.webp);
+  background-image: url('hero.webp');
   background-size: cover;
   background-position: center;
   opacity: 0.4;
@@ -215,7 +215,7 @@ nav {
 .masked-image {
   width: 100%;
   height: 100%;
-  background-image: url('assets/blob.png');
+  background-image: url('blob.png');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -233,13 +233,13 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('assets/about_us.jpg');
+  background-image: url('about_us.jpg');
   background-size: cover;
   background-position: center;
-  -webkit-mask-image: url('assets/blob.png');
+  -webkit-mask-image: url('blob.png');
   -webkit-mask-size: cover;
   -webkit-mask-position: center;
-  mask-image: url('assets/blob.png');
+  mask-image: url('blob.png');
   mask-size: cover;
   mask-position: center;
 }
@@ -662,7 +662,7 @@ nav {
 .login .brand-logo {
   height: 100px;
   width: 100px;
-  background: url(assets/logo.png);
+  background: url('logo.png');
   background-size: cover;
   margin: auto;
   border-radius: 50%;
